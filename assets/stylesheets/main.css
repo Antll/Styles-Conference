@@ -186,6 +186,11 @@ cite, em {
 
  a {
 	 color: #648880;
+	 text-decoration: none;
+ }
+
+ p a {
+	 border-bottom: 1px solid #dfe2e5;
  }
 
 /*
@@ -222,6 +227,10 @@ cite, em {
 
 .hero p {
 	font-size: 24px;
+}
+
+.teasers a:hover h3 {
+	color: #a2b9b9;
 }
 
 /*
