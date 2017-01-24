@@ -133,9 +133,21 @@ table {
 }
 
 /*
-	===============================
+	=================================
+	Raws
+	=================================
+ */
+
+ .raw {
+	 background: #fff;
+	 min-width: 960px;
+	 padding: 66px 0 44px 0;
+ }
+
+/*
+	=================================
 	Typography
-	===============================
+	=================================
 */
 
 h1, h3, h4, h5, p {
@@ -215,11 +227,21 @@ cite, em {
 	border-radius: 5px;
 	display: inline-block;
 	margin: 0;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 .btn-alt {
 	border: 1px solid #dfe2e5;
 	padding: 10px 30px;
+}
+
+.btn-alt:hover {
+	background: #fff;
+	color: #648880;
 }
 
 /*
