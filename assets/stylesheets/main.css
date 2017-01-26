@@ -134,14 +134,26 @@ table {
 
 /*
 	=================================
-	Raws
+	Rows
 	=================================
  */
 
- .row {
+.row,
+.row-alt {
+	min-width: 960px;
+}
+
+.row {
 	 background: #fff;
-	 min-width: 960px;
 	 padding: 66px 0 44px 0;
+ }
+
+ .row-alt {
+	 color: #cbe2c1;
+	 background: -webkit-linear-gradient(to right, #ald3b0, #fbfld3);
+	 background: -moz-linear-gradient(to right, #ald3b0, #fbfld3);
+	 background: linear-gradient(to right, #ald3b0, #fbfld3);
+	 padding: 44px 0 22px 0;
  }
 
 /*
