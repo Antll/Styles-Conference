@@ -297,6 +297,13 @@ cite, em {
 	color: #a2b9b9;
 }
 
+.teasers img {
+	max-width: 100%;
+	margin-bottom: 22px;
+	display: block;
+	border-radius: 5px;
+}
+
 /*
 	=================================
 	Primary header
