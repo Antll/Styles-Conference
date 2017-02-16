@@ -478,3 +478,19 @@ textarea {
 .btn-default:hover {
 	background: #77a198;
 }
+
+
+/*
+	=================================
+	Schedule
+	=================================
+ */
+
+table {
+	width: 100%;
+	margin-bottom: 44px;
+}
+
+table:last-child {
+	margin-bottom: 0;
+}
